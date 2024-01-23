@@ -1,5 +1,7 @@
+import logo from "../assets/logo.svg";
+
 const getCroppedImageUrl = (url: string) => {
-  if (!url) return "";
+  if (!url) return logo;
 
   const target = "media/";
   const index = url.indexOf(target) + target.length;
